@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.startupui.Main14Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="18dp"
+        android:background="@drawable/myborder2"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:drawableLeft="@drawable/fuel_head"
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/fuel_head"
+            android:fontFamily="@font/merienda"
+            android:paddingBottom="7dp"
+            android:paddingEnd="35dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="7dp"
+            android:text="FUEL"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/myborder"
+                android:drawableLeft="@drawable/tyre_repair"
+                android:drawablePadding="8dp"
+                android:drawableStart="@drawable/fuel_petrol"
+                android:drawableTint="#ffff"
+                android:paddingBottom="7dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="7dp"
+                android:text="PETROL"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="DIESEL"
+                android:drawableLeft="@drawable/fuel_diesel"
+                android:drawablePadding="8dp"
+                android:drawableStart="@drawable/fuel_diesel"
+                android:background="@drawable/myborder"
+                android:drawableTint="#ffff"
+                android:paddingBottom="7dp"
+                android:paddingTop="7dp"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="30dp"/>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="L"
+                android:layout_marginLeft="50dp"
+                android:drawableLeft="@drawable/fuel_3litres"
+                android:drawablePadding="3dp"
+                android:drawableStart="@drawable/fuel_3litres"
+                android:background="@drawable/myborder"
+                android:drawableTint="#ffff"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"/>
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="L"
+                android:textSize="30sp"
+                android:drawableLeft="@drawable/fuel_5litres"
+                android:background="@drawable/myborder"
+                android:drawablePadding="3dp"
+                android:drawableStart="@drawable/fuel_5litres"
+                android:drawableTint="#ffff"
+                android:paddingBottom="10dp"
+                android:textColor="#ffffff"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="30dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terms and Conditions"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_arrow_forward_black_24dp"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:pressedTranslationZ="8dp"/>
+
+
+</android.support.constraint.ConstraintLayout>

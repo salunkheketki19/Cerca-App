@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context="com.example.user.startupui.Main5Activity">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/myborder2"
+    android:orientation="vertical">
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:text="TOW"
+      android:paddingEnd="0dp"
+      android:paddingRight="40dp"
+      android:drawableLeft="@drawable/just_tow"
+        android:fontFamily="@font/merienda"
+      android:drawablePadding="5dp"
+      android:drawableStart="@drawable/just_tow"
+        android:textColor="@color/colorPrimaryDark"
+      android:textSize="25sp"
+      android:textStyle="bold"
+        android:layout_marginTop="3dp"/>
+
+    <TextView
+      android:id="@+id/button1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="40dp"
+      android:background="@drawable/myborder"
+        android:drawableLeft="@drawable/tow_head"
+        android:drawablePadding="30dp"
+        android:drawableStart="@drawable/tow_head"
+        android:textStyle="bold"
+        android:drawableTint="#ffff"
+        android:paddingBottom="7dp"
+        android:paddingTop="7dp"
+        android:paddingLeft="70dp"
+      android:text="JUST TOW"
+       android:textAllCaps="false"
+          android:textColor="#ffffff"
+      android:textSize="20sp"/>
+
+    <TextView
+      android:id="@+id/button7"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:background="@drawable/myborder"
+      android:text="TOW WITH FAMILY"
+        android:drawableLeft="@drawable/tow_with_family"
+        android:drawablePadding="30dp"
+        android:drawableStart="@drawable/tow_with_family"
+        android:textStyle="bold"
+        android:drawableTint="#ffff"
+        android:paddingBottom="7dp"
+        android:paddingTop="7dp"
+        android:paddingLeft="70dp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+      android:textSize="20sp"/>
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="32dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginLeft="8dp"
+    android:orientation="horizontal"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+
+    <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:checked="true"/>
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Terms and Conditions"
+      android:textSize="18sp"
+      android:textColor="@android:color/white"/>
+
+  </LinearLayout>
+
+  <android.support.design.widget.FloatingActionButton
+    android:id="@+id/button8"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_gravity="center"
+    android:src="@drawable/ic_arrow_forward_black_24dp"
+    app:fabSize="normal"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:pressedTranslationZ="8dp"/>
+
+</android.support.constraint.ConstraintLayout>
